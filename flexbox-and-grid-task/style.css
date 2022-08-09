@@ -1,0 +1,145 @@
+body {
+    background-color: hsl(0, 4%, 5%);
+    display: flex;
+    justify-content: center;
+}
+
+.parentFlex {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 900px;
+    height: 500px;
+    height: auto;
+    padding: 80px 30px 80px 30px;
+    margin: 0 3% 0 3%;
+    overflow: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+   padding: 40px 30px 40px 30px;
+   width: 200px;
+}
+
+.card h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-weight: 400;
+    height: 120px;  
+}
+
+ a {
+    font-family: 'Lexend Deca';
+    text-decoration: none;
+    font-size: 15px;
+    padding: 7px 24px 7px 24px;
+    border-radius: 90px;
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+a:hover {
+    text-decoration: none;
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 7px 20px 7px 20px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: transparent;
+    
+}
+
+#assA, #assB {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn{
+    text-align: center;
+}
+
+
+#card1 a {
+    color: hsl(31, 77%, 52%);
+
+}
+
+#card2 a {
+    color: hsl(184, 100%, 22%);
+
+}
+
+#card3 .mybtn {
+    color: hsl(179, 100%, 13%);
+}
+
+#card1 a:hover, #card2 a:hover, #card3 a:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+#card1 {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+#card2 {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card3 {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .parentFlex {
+        /*    background-color: hsl(0, 0%, 95%); */
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;  
+            flex-direction: column;
+            width: 260px;
+            padding: 80px 16px 80px 16px;
+        
+        }
+
+        #card3, #card1 {
+            border-radius: 0px 0px 0px 0px;
+        }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .parentFlex {
+        width: 900px;
+    }
+}

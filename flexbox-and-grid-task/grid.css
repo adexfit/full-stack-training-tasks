@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    width: 60%;
+    padding: 40px 80px 40px 20px;
+    background-color: #1A1C28;
+    margin: auto;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    padding: 50px;
+}
+
+.box1 {
+    background-color: #EB5020;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.box2 {
+    background-color: #FFA401;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.box3 {
+    background-color: #05AA42;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.box4 {
+    background-color: #01AEFD;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+}
+
+.box5 {
+    background-color: #01AEFD;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+ 
+}
+
+
+#assA, #assB {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn{
+    text-align: center;
+}
+
+a {
+    font-family: 'Lexend Deca';
+    text-decoration: none;
+    font-size: 15px;
+    padding: 7px 24px 7px 24px;
+    border-radius: 90px;
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+a:hover {
+    text-decoration: none;
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 7px 20px 7px 20px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: transparent;
+    
+}
